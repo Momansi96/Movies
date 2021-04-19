@@ -1,10 +1,21 @@
  
+<<<<<<< HEAD
 var ask1 = prompt('Are you older than 18?');
 
  while(ask1 !== 'yes'){
    ask1 = prompt('Are you older than 18?');
 
  }
+=======
+let result = confirm('Are you older than 18?');
+
+let message = result ? 'Welcome to our website' :
+    'You should have a parental guide with you';
+
+alert(message);
+
+
+>>>>>>> 1dc8ff7d3500f13a041076d8b5bd703b64e456e9
 var prefered = prompt('please enter your favourite movie genre?');
 console.log('your favourite movie genre is ' + prefered);
 
@@ -21,6 +32,7 @@ else if(gender =='female')
 { 
   var link = '<img src="https://i.pinimg.com/originals/31/35/9c/31359ccfe0d18fd59ff906e0e3cc3caf.png"  alt= "Hanah Montana"/>';;
   document.write(link);
+<<<<<<< HEAD
 }
 
 
@@ -32,4 +44,12 @@ else if(gender =='female')
 
 
 
+=======
+} 
+
+while (i < 10) {
+  text += "The number is " + i;
+  i++;
+}
+>>>>>>> 1dc8ff7d3500f13a041076d8b5bd703b64e456e9
 

@@ -15,12 +15,15 @@ h1 {
   margin: 30px;
   background-color: yellow;
 
+<<<<<<< HEAD
   border: 1px solid red;
   padding: 10px;
   margin: 25px;
   width:100px;
   display: inline-block;
 
+=======
+>>>>>>> 1dc8ff7d3500f13a041076d8b5bd703b64e456e9
 }
 
 footer { background-color: red;
